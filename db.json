@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 2499,
+      "stock": 15,
+      "rating": 4.5,
+      "image": "https://media.istockphoto.com/id/2171717506/photo/black-wireless-headphones-isolated-on-white.jpg?s=612x612&w=0&k=20&c=ZRnPuG-9vC8pnEMDpWfI507ChmTPLntgxww-6cL3pYs="
+    },
+    {
+      "id": "2",
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 3299,
+      "stock": 8,
+      "rating": 4.2,
+      "image": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8="
+    },
+    {
+      "id": "3",
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 4999,
+      "stock": 0,
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/509464671/photo/smart-watch.jpg?s=612x612&w=0&k=20&c=RDYfeSMutwJ778pweCYQwIvFKAcNCni5_m5B-iLkDZs="
+    },
+    {
+      "id": "4",
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 1599,
+      "stock": 20,
+      "rating": 4.3,
+      "image": "https://media.istockphoto.com/id/2167589456/photo/yellow-backpack-opened-isolated-on-white-school-bag-advertisement-design-knapsack-rucksack.jpg?s=612x612&w=0&k=20&c=5B7A5M35ZEcneBbRoLWkIpPcij1HKTdPtkXEm71MMKI="
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 1999,
+      "stock": 12,
+      "rating": 4.1,
+      "image": "https://media.istockphoto.com/id/924827878/photo/bluetooth-speaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=8uvaBlYbxdfEv7bukX0Qedn4urKHckUw8n25mEb0OCk="
+    },
+    {
+      "id": "6",
+      "name": "Laptop Stand",
+      "category": "Accessories",
+      "price": 1299,
+      "stock": 25,
+      "rating": 4.4,
+      "image": "https://www.shutterstock.com/image-photo/laptop-holder-desk-black-aluminum-260nw-2386343541.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 1799,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://t4.ftcdn.net/jpg/05/31/84/57/360_F_531845717_AMMGpzK7RpSnIT2mjP6CTcrXDHfXfRwf.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 8999,
+      "stock": 5,
+      "rating": 4.5,
+      "image": "https://png.pngtree.com/png-clipart/20240319/original/pngtree-black-office-chair-png-image_14629967.png"
+    },
+    {
+      "name": "Pen",
+      "category": "Accessories",
+      "price": 70,
+      "stock": 20,
+      "rating": 4.7,
+      "image": "https://png.pngtree.com/png-clipart/20240729/original/pngtree-black-and-gold-fountain-pen-png-image_15665597.png",
+      "id": "3XLm6NMsRik"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "customer": "John",
+      "date": "2026-08-05",
+      "status": "Delivered",
+      "total": 5499,
+      "items": 3
+    },
+    {
+      "id": "1002",
+      "customer": "Sarah",
+      "date": "2026-08-08",
+      "status": "Processing",
+      "total": 3299,
+      "items": 1
+    },
+    {
+      "id": "1003",
+      "customer": "David",
+      "date": "2026-08-10",
+      "status": "Shipped",
+      "total": 6998,
+      "items": 2
+    },
+    {
+      "id": "1004",
+      "customer": "Mike",
+      "date": "2026-08-12",
+      "status": "Delivered",
+      "total": 8999,
+      "items": 2
+    },
+    {
+      "id": "1005",
+      "customer": "Emma",
+      "date": "2026-08-14",
+      "status": "Cancelled",
+      "total": 1599,
+      "items": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
